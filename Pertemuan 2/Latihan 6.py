@@ -5,12 +5,11 @@ class manusia:
     
     def hasil (self):
         print ("Nama:", self.nama)
-        print ("Usia:", self.usia, "tahun")
+        print ("Usia:", str(self.usia), "tahun")
 
 def main ():
     a = input("Masukkan nama: ")
-    b = int(input("Masukkan usia: "))
-
+    b = input("Masukkan usia: ")
     c = manusia(a, b)
     c.hasil()
     
