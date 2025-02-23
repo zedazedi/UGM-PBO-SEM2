@@ -5,7 +5,7 @@ class manusia:
     
     def hasil (self):
         print ("Nama:", self.nama)
-        print ("Usia:", str(self.usia), "tahun")
+        print ("Usia:", self.usia, "tahun")
 
 def main ():
     a = input("Masukkan nama: ")
